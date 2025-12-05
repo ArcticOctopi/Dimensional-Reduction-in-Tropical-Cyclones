@@ -9,8 +9,11 @@ dependencies:
   - asttokens=3.0.1=pyhd8ed1ab_0
   - attrs=25.4.0=pyhcf101f3_1
   - blosc=1.21.6=hfd34d9b_1
+  - boto3=1.40.54=py313haa95532_0
+  - botocore=1.40.54=py313haa95532_1
   - brotli=1.2.0=h2d644bc_1
   - brotli-bin=1.2.0=hfd05255_1
+  - brotlicffi=1.2.0.0=py313h885b0b7_0
   - bzip2=1.0.8=h2bbff1b_6
   - ca-certificates=2025.12.2=haa95532_0
   - cairo=1.18.0=h91e5215_2
@@ -56,6 +59,7 @@ dependencies:
   - ipython_pygments_lexers=1.1.1=pyhd8ed1ab_0
   - jasper=4.2.4=ha9f4a2c_1
   - jedi=0.19.2=pyhd8ed1ab_1
+  - jmespath=1.0.1=py313haa95532_0
   - jpeg=9e=hcfcfb64_3
   - jupyter_client=8.6.3=pyhd8ed1ab_1
   - jupyter_core=5.9.1=pyh6dadd2b_0
@@ -139,6 +143,7 @@ dependencies:
   - pyparsing=3.2.5=pyhcf101f3_0
   - pyproj=3.7.2=py313h24787ba_2
   - pyside6=6.9.2=py313h151a370_0
+  - pysocks=1.7.1=py313haa95532_1
   - python=3.13.10=h260b955_100_cp313
   - python-dateutil=2.9.0.post0=pyhe01879c_2
   - python-eccodes=2.37.0=py313h0591002_1
@@ -159,6 +164,7 @@ dependencies:
   - qtwebsockets=6.9.2=heb02b0b_1
   - rav1e=0.7.1=ha073cba_3
   - re2=2024.07.02=h8e466ff_4
+  - s3transfer=0.14.0=py313haa95532_0
   - setuptools=80.9.0=py313haa95532_0
   - shapely=2.1.2=py313h64ccc5a_2
   - six=1.17.0=pyhe01879c_1
@@ -169,16 +175,18 @@ dependencies:
   - svt-av1=3.1.2=hac47afa_0
   - tbb=2022.3.0=hd094cb3_1
   - tk=8.6.15=hf199647_0
-  - tornado=6.5.2=py313h5ea7bf4_2
+  - tornado=6.5=py313h827c3e9_0
   - traitlets=5.14.3=pyhd8ed1ab_1
   - typing_extensions=4.15.0=pyhcf101f3_0
   - tzdata=2025b=h04d1e81_0
   - ucrt=10.0.22621.0=haa95532_0
+  - urllib3=2.6.0=py313haa95532_0
   - vc=14.3=h2df5915_10
   - vc14_runtime=14.44.35208=h4927774_10
   - vs2015_runtime=14.44.35208=ha6b5a95_10
   - wcwidth=0.2.14=pyhd8ed1ab_0
   - wheel=0.45.1=py313haa95532_0
+  - win_inet_pton=1.1.0=py313haa95532_1
   - xarray=2025.11.0=pyhcf101f3_0
   - xesmf=0.8.7=pyhd8ed1ab_0
   - xz=5.6.4=h4754444_1
