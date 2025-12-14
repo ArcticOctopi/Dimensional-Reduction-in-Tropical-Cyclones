@@ -1,1 +1,5 @@
-# ATMS-523-Project
+# Characterization of Tropical Cyclones utilizing HAFS-A Model Output
+
+Tropical cyclones have long been characterized by two values - minimum central pressure and maximum surface wind speed - and the official classification of tropical cyclone strength is based entirely on maximum surface wind speed. This is generally an acceptable way of classifying tropical cylones given the destructive power of hurricane force winds. However, examples such as Hurricanes Harvey, Helene and Sandy have demonstrated the potential for destruction that belied their categorical classification at the time.
+
+Given the success the methods such as Empirical Orthogonal Functions and Principal Compontent Analysis have had in identifying large scale synoptic and climatic patterns, this project looks to see whether such data compression would be feasible on a storm-centric basis.
