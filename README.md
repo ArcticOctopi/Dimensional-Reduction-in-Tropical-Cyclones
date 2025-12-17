@@ -23,3 +23,4 @@ Given the success the methods such as Empirical Orthogonal Functions and Princip
     - matplotlib
     - scikit-learn
     - xesmf
+    - eofs
