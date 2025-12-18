@@ -6,6 +6,8 @@ Given the success the methods such as Empirical Orthogonal Functions and Princip
 
 All data is sourced from the HAFS repository on the Amazon Sustainability Data Initiative: https://registry.opendata.aws/noaa-nws-hafs. There were in total over 10,000 separate model runs going back to 2023. Due to resource limitation I processed the first 1,000. After data cleaning I ended up with a roughly 500 sample dataset to work with.
 
+The generated datasets can also be downloaded here: https://drive.google.com/drive/folders/1oyblVdSbUZUFNDqIh2LXLNQkeuuUKs3Y?usp=sharing
+
 
 
 ## Workflow:
