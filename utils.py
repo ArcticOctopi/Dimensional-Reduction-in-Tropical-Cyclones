@@ -18,3 +18,13 @@ def download_and_open(url,typeOfKey = 'isobaricInhPa', filename="temp.grib2"):
                        filter_by_keys={'typeOfLevel': typeOfKey },
                        engine='cfgrib')
   return ds  
+
+def random_link_selection(num_of_frames, links_path):
+    result = []
+    with open(links_path) as f:
+        links = pd.read_csv(f)
+    random_frames = links.sample(num_of_frames)
+    for link in random_frames.values:
+        result.append('https://noaa-nws-hafs-pds.s3.amazonaws.com/' + link)
+    
+    return result
