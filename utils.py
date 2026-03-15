@@ -3,6 +3,9 @@ import xarray as xr
 import pandas as pd
 import scipy
 import numpy as np
+from roaring_landmask import RoaringLandmask
+
+
 
 
 def download_and_open(url, typeOfKey = 'isobaricInhPa', filename="temp.grib2"):
@@ -51,9 +54,9 @@ def get_sfc_center(ds):
         return None, None, None, None
     else:
         print(f'{np.round(min_pressure, decimals = 2)}mb is below the pressure threshold of 1005mb')
+    
     nan_mask = ds['prmsl'].isnull()
     ds_sfc = ds.where(~nan_mask, drop = True).isel(latitude = slice(50,-50), longitude = slice(50,-50))
-    
 
     slp_threshold = np.quantile(ds_sfc['prmsl'], 0.01)
     slp_clusters = ds_sfc['prmsl'].where(ds_sfc['prmsl'] < slp_threshold)
@@ -74,6 +77,23 @@ def get_sfc_center(ds):
 
     center_lat =  ds_sfc.latitude.isel(latitude = int(np.round(center_y)))
     center_lon =  ds_sfc.longitude.isel(longitude =int(np.round(center_x)))
+
+    storm_region = ds.sel(latitude = slice(center_lat.values -2, center_lat.values + 2), longitude = slice(center_lon.values -2, center_lon.values + 2))
+    if storm_region['prmsl'].isnull().any():
+        print('NaNs in storm region, skipping frame.')
+        return None, None, None, None
+
+    l = RoaringLandmask.new()
+    lon_mesh, lat_mesh = np.meshgrid(storm_region.longitude.values, storm_region.latitude.values)
+    on_land = l.contains_many(lon_mesh.ravel(), lat_mesh.ravel())
+
+
+
+    if np.any(on_land):
+       print('Inner nest contains land.')
+       return None, None, None, None
+    
     
     center_info = dict(center_lat = center_lat, center_lon = center_lon, mslp = mslp)
     return center_info, largest_cluster_outline, ds_sfc.latitude.values, ds_sfc.longitude.values
+
