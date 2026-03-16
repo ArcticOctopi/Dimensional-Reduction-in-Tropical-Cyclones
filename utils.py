@@ -63,11 +63,15 @@ def get_sfc_center(ds):
     slp_clusters_mask = ~slp_clusters.isnull()
 
     clusters = scipy.ndimage.label(slp_clusters_mask)
+    print('------\n clusters \n ------')
+    print(clusters)
     cluster_size = []
     for a in np.arange(clusters[1]):
         cluster_number = a + 1
         cluster_size.append(np.sum(np.where(clusters[0] == cluster_number, 1, 0)))
 
+    print('------\n clusters numbers \n ------')
+    print(cluster_size)
     
     largest_cluster_id = np.argmax(cluster_size) + 1
     largest_cluster = xr.where(clusters[0] == largest_cluster_id, ds_sfc['prmsl'], 0)
