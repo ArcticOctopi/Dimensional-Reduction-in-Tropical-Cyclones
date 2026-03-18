@@ -99,5 +99,6 @@ def get_sfc_center(ds):
     
     
     center_info = dict(center_lat = center_lat, center_lon = center_lon, mslp = mslp)
-    return center_info, largest_cluster_outline, ds_sfc.latitude.values, ds_sfc.longitude.values
+    return center_info 
+# Extra return valueslargest_cluster_outline, ds_sfc.latitude.values, ds_sfc.longitude.values
 
