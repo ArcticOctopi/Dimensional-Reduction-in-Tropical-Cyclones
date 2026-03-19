@@ -44,14 +44,14 @@ def random_link_selection(num_of_frames, links_path):
     
     return result
 
-def get_sfc_center(ds):
+def get_sfc_center(ds, next_step = False):
 
     if ds['prmsl'].min().values > 10000:
        ds['prmsl'] = ds['prmsl']/100
     min_pressure = ds['prmsl'].min().values
-    if min_pressure > 1005: # Pressure threshold (pa) 1005mb
+    if min_pressure > 1005 and not next_step: # Pressure threshold (pa) 1005mb, I don't care about the threshold for just getting the storm center at the next step
         print(f'{np.round(min_pressure, decimals =2)}mb is above the pressure threshold of 1005mb')
-        return None, None, None, None
+        return None
     else:
         print(f'{np.round(min_pressure, decimals = 2)}mb is below the pressure threshold of 1005mb')
     
@@ -63,15 +63,10 @@ def get_sfc_center(ds):
     slp_clusters_mask = ~slp_clusters.isnull()
 
     clusters = scipy.ndimage.label(slp_clusters_mask)
-    print('------\n clusters \n ------')
-    print(clusters)
     cluster_size = []
     for a in np.arange(clusters[1]):
         cluster_number = a + 1
         cluster_size.append(np.sum(np.where(clusters[0] == cluster_number, 1, 0)))
-
-    print('------\n clusters numbers \n ------')
-    print(cluster_size)
     
     largest_cluster_id = np.argmax(cluster_size) + 1
     largest_cluster = xr.where(clusters[0] == largest_cluster_id, ds_sfc['prmsl'], 0)
@@ -85,7 +80,7 @@ def get_sfc_center(ds):
     storm_region = ds.sel(latitude = slice(center_lat.values -2, center_lat.values + 2), longitude = slice(center_lon.values -2, center_lon.values + 2))
     if storm_region['prmsl'].isnull().any():
         print('NaNs in storm region, skipping frame.')
-        return None, None, None, None
+        return None
 
     l = RoaringLandmask.new()
     lon_mesh, lat_mesh = np.meshgrid(storm_region.longitude.values, storm_region.latitude.values)
@@ -95,7 +90,7 @@ def get_sfc_center(ds):
 
     if np.any(on_land):
        print('Inner nest contains land.')
-       return None, None, None, None
+       return None
     
     
     center_info = dict(center_lat = center_lat, center_lon = center_lon, mslp = mslp)
