@@ -67,8 +67,10 @@ def get_sfc_center(ds, next_step = False):
     for a in np.arange(clusters[1]):
         cluster_number = a + 1
         cluster_size.append(np.sum(np.where(clusters[0] == cluster_number, 1, 0)))
-    
-    largest_cluster_id = np.argmax(cluster_size) + 1
+    try:
+        largest_cluster_id = np.argmax(cluster_size) + 1
+    except Exception as e:
+        return None
     largest_cluster = xr.where(clusters[0] == largest_cluster_id, ds_sfc['prmsl'], 0)
     center_y, center_x = scipy.ndimage.center_of_mass(largest_cluster.values)
     largest_cluster_outline = np.where(clusters[0] == largest_cluster_id, True, False)
