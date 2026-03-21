@@ -4,6 +4,7 @@ import pandas as pd
 import scipy
 import numpy as np
 from roaring_landmask import RoaringLandmask
+import matplotlib.pyplot as plt
 
 
 
@@ -99,3 +100,13 @@ def get_sfc_center(ds, next_step = False):
     return center_info 
 # Extra return valueslargest_cluster_outline, ds_sfc.latitude.values, ds_sfc.longitude.values
 
+def plot_polar(ds):
+    fig, ax = plt.subplots(nrows= 1, ncols=1, figsize=(10, 10),subplot_kw={'projection': 'polar'})
+
+    angle, radius = ds.angle.values, ds.radius.values
+
+    R, Theta = np.meshgrid(radius, angle)
+
+
+    ax.pcolormesh(R, Theta, ds)
+    plt.show()
