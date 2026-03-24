@@ -5,6 +5,10 @@ import scipy
 import numpy as np
 from roaring_landmask import RoaringLandmask
 import matplotlib.pyplot as plt
+import logging
+
+logging.basicConfig(filename='utils.log', encoding='utf-8', level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 
 
@@ -52,6 +56,7 @@ def get_sfc_center(ds, next_step = False):
     min_pressure = ds['prmsl'].min().values
     if min_pressure > 1005 and not next_step: # Pressure threshold (pa) 1005mb, I don't care about the threshold for just getting the storm center at the next step
         print(f'{np.round(min_pressure, decimals =2)}mb is above the pressure threshold of 1005mb')
+        logger.info(f'{np.round(min_pressure, decimals =2)}mb is above the pressure threshold of 1005mb')
         return None
     else:
         print(f'{np.round(min_pressure, decimals = 2)}mb is below the pressure threshold of 1005mb')
@@ -83,6 +88,7 @@ def get_sfc_center(ds, next_step = False):
     storm_region = ds.sel(latitude = slice(center_lat.values -2, center_lat.values + 2), longitude = slice(center_lon.values -2, center_lon.values + 2))
     if storm_region['prmsl'].isnull().any():
         print('NaNs in storm region, skipping frame.')
+        logger.info('NaNs in surface storm region, skipping frame.')
         return None
 
     l = RoaringLandmask.new()
@@ -93,6 +99,7 @@ def get_sfc_center(ds, next_step = False):
 
     if np.any(on_land):
        print('Inner nest contains land.')
+       logger.info('Inner nest contains land.')
        return None
     
     
@@ -101,7 +108,7 @@ def get_sfc_center(ds, next_step = False):
 # Extra return valueslargest_cluster_outline, ds_sfc.latitude.values, ds_sfc.longitude.values
 
 def plot_polar(ds):
-    fig, ax = plt.subplots(nrows= 1, ncols=1, figsize=(10, 10),subplot_kw={'projection': 'polar'})
+    fig, ax = plt.subplots(nrows= 1, ncols=1, figsize=(8, 8),subplot_kw={'projection': 'polar'})
 
     angle, radius = ds.angle.values, ds.radius.values
 
