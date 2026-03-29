@@ -6,12 +6,34 @@ import numpy as np
 from roaring_landmask import RoaringLandmask
 import matplotlib.pyplot as plt
 import logging
+from pathlib import Path
+from sklearn.preprocessing import StandardScaler
 
 logging.basicConfig(filename='utils.log', encoding='utf-8', level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
 
+def consolidate_data(data_path):
+    
+    directory_path = Path(data_path)
+    files_only = [data_path + '/' + entry.name for entry in directory_path.iterdir() if entry.is_file() and entry.name != '.gitkeep']
+
+    ds_started = False
+    for i, file in enumerate(files_only):
+        
+        if not ds_started:
+            ds = xr.open_dataset(file)
+            ds = ds.assign_coords(frame_number = ('valid_time',np.arange(i*100, (i+1) * 100, 1)))
+            ds = ds.swap_dims({'valid_time':'frame_number'})
+            ds_started = True
+        else:
+            ds_temp = xr.open_dataset(file)
+            ds_temp = ds_temp.assign_coords(frame_number = ('valid_time',np.arange(i*100, (i+1) * 100, 1)))
+            ds_temp = ds_temp.swap_dims({'valid_time':'frame_number'})
+
+            ds = xr.concat([ds, ds_temp], dim = 'frame_number')
+    return ds
 
 def download_and_open(url, typeOfKey = 'isobaricInhPa', filename="temp.grib2"):
 
@@ -117,3 +139,19 @@ def plot_polar(ds):
 
     ax.pcolormesh(R, Theta, ds)
     plt.show()
+
+def plot_polar_from_arrays(radius, angle, values):
+    
+    fig, ax = plt.subplots(nrows= 1, ncols=1, figsize=(8, 8),subplot_kw={'projection': 'polar'})
+    R, Theta = np.meshgrid(radius, angle)
+    ax.pcolormesh(R, Theta, values)
+    plt.show()
+
+def standard_data_normalizer(da):
+    frame_number, angle, radius = da.shape
+    flattened_arrary = da.values.reshape(-1,1)
+    scaler = StandardScaler()
+    data_normalized_flat = scaler.fit_transform(flattened_arrary)
+    data_normalized = data_normalized_flat.reshape(frame_number, angle, radius)
+
+    return data_normalized
