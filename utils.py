@@ -7,7 +7,7 @@ from roaring_landmask import RoaringLandmask
 import matplotlib.pyplot as plt
 import logging
 from pathlib import Path
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import StandardScaler, MinMaxScaler
 
 logging.basicConfig(filename='utils.log', encoding='utf-8', level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -119,7 +119,7 @@ def get_sfc_center(ds, next_step = False):
 
 
 
-    if np.any(on_land):
+    if np.any(on_land) and not next_step:
        print('Inner nest contains land.')
        logger.info('Inner nest contains land.')
        return None
@@ -151,6 +151,15 @@ def standard_data_normalizer(da):
     frame_number, angle, radius = da.shape
     flattened_arrary = da.values.reshape(-1,1)
     scaler = StandardScaler()
+    data_normalized_flat = scaler.fit_transform(flattened_arrary)
+    data_normalized = data_normalized_flat.reshape(frame_number, angle, radius)
+
+    return data_normalized
+
+def minmax_data_normalizer(da):
+    frame_number, angle, radius = da.shape
+    flattened_arrary = da.values.reshape(-1,1)
+    scaler = MinMaxScaler()
     data_normalized_flat = scaler.fit_transform(flattened_arrary)
     data_normalized = data_normalized_flat.reshape(frame_number, angle, radius)
 
