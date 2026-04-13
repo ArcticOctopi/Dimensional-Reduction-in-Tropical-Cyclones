@@ -145,6 +145,7 @@ def plot_polar_from_arrays(radius, angle, values):
     fig, ax = plt.subplots(nrows= 1, ncols=1, figsize=(8, 8),subplot_kw={'projection': 'polar'})
     R, Theta = np.meshgrid(radius, angle)
     ax.pcolormesh(R, Theta, values)
+    fig.colorbar()
     plt.show()
 
 def standard_data_normalizer(da):
