@@ -16,18 +16,10 @@ The generated datasets can also be downloaded here: https://drive.google.com/dri
   If you're using netcdf datasets generated previously make sure they live in a folder labeled CompleteData that's located inside the main project folder. The completed dataset can be found at https://doi.org/10.5281/zenodo.20091620
 
   1. The first step in this workflow is to run the ListingFiles notebook. For my useage, I created a separate environment solely for this notebook. Boto3 seems to have compatability issues with some of the othe packages used  in this project, so the easiest solution seemed to be to put it in an environment by itself. The notebook itself requires no input and will generate a text file containing a list of links for the 24 hour timestep grib file of each HAFS-A model run.
-  2. Next, run the Data_Consolidation_Workflow notebook. This notebook has several variables and parameters that the user can tweek. The primary parameters affecting the dataset are the CMP_MAX and the DROP_VARIABLES. The CMP_MAX determines the necessary storm strength threshold for inclusion into the dataset. This notebook will produce a series of netcdf files containing data variables at the 700mb level, sfc level(determined by selecting the level nearest the minimum central pressure of that frame), and 200mb levels as well as Maximum Windspeed, Minimum Central Pressure and Center Lat/Lon, and 24 hour intensity changes for that frame.
+  2. Next, run the Data_Consolidation_Workflow notebook. This notebook will produce a series of netcdf files containing data variables at the 700mb level, sfc level(determined by selecting the level nearest the minimum central pressure of that frame), and 200mb levels as well as Maximum Windspeed, Minimum Central Pressure and Center Lat/Lon, and 24 hour intensity changes for that frame.
   3. Finally, run the UMAP_processing_workflow.
 
-  ## Results
-  
-  For the analysis, I first attempted to construct a multi-variate analysis including geopotential height, temperature, relative humidity at the 700 mb level. To verify retention of information, I computed a multiple linear regression consisting of the top 3 EOFs against frame max wind and frame minimum central pressure. This showed some marginal skill in estimating storm max wind and minimum central pressure for each frame. 
 
-  Next I constructed single variate EOF's of each of Geopotential Height, Temperature and Relative Humidity. Then I performed the same multiple linear regression but using the top 3 principal components of each EOF (9 total) as the predictors. This shows much better skill in estimating storm frame max wind and storm frame minimum central pressure. Lastly I performed a shap analysis so see which EOF is the strongest contributor for each predictand. 
-
-  Not surprisingly, Geopotential Height dominated for both predictands. However, I thought it was interesting that for Max Winds EOF 2 seemed to be the primary influencer while Central Pressure seemed to be more influenced by EOF1. It would also be interesting to see the impact the Temperature and Relative Humidity EOFs have on future storm development. Both are important aspects of tropical cyclone development and I could seem them having an impact on events like Rapid Intensification and Eyewall Replacement Cycles. 
-
-  There would also be a couple changes I think could be made for the analysis portion. I mentioned previously that trying a rotated EOF transformation like Varimax could be important for isolating effects solely caused by the coordinate transformations in the EOF process. I also think further investigation is warranted in the choice of Normalizer for the data. I know ideally for an EOF you have normally distributed data. Given how much the inner core of a tropical cyclone drives the dynamics, maybe it's beneficial to have that inner core weighted stronger than the fringes.
 
 ## Packages required:
  (The environment yaml's may be incompatible with your system depending on your system configuration.)
@@ -45,3 +37,4 @@ The generated datasets can also be downloaded here: https://drive.google.com/dri
     - xesmf
     - eofs
     - shap
+    - UMAP
