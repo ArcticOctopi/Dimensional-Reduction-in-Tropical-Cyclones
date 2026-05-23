@@ -83811,3 +83811,2023 @@ WARNING:pacmap.pacmap:Warning: random state is set to 12.
 WARNING:pacmap.pacmap:Warning: random state is set to 12.
 WARNING:pacmap.pacmap:Warning: random state is set to 12.
 WARNING:pacmap.pacmap:Warning: random state is set to 12.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:1007.97998046875mb is above the pressure threshold of 1005mb
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:1005.0399780273438mb is above the pressure threshold of 1005mb
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:1007.9600219726562mb is above the pressure threshold of 1005mb
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:1008.9199829101562mb is above the pressure threshold of 1005mb
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:1007.1900024414062mb is above the pressure threshold of 1005mb
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:1008.6500244140625mb is above the pressure threshold of 1005mb
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:1011.7999877929688mb is above the pressure threshold of 1005mb
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:1007.219970703125mb is above the pressure threshold of 1005mb
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:1005.0700073242188mb is above the pressure threshold of 1005mb
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:1008.6599731445312mb is above the pressure threshold of 1005mb
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:1008.0999755859375mb is above the pressure threshold of 1005mb
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:1011.4000244140625mb is above the pressure threshold of 1005mb
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:1005.3699951171875mb is above the pressure threshold of 1005mb
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:NaNs in surface storm region, skipping frame.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:root:NaN values in atmosphere storm region. Skipping Frame
+INFO:root:Cannot determine Atmospheric Level Centers, skipping frame
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:1005.47998046875mb is above the pressure threshold of 1005mb
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:1005.3900146484375mb is above the pressure threshold of 1005mb
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:Inner nest contains land.
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:root:NaN values in atmosphere storm region. Skipping Frame
+INFO:root:Cannot determine Atmospheric Level Centers, skipping frame
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/atm_temp.grb2.5b7b6.idx' older than GRIB file
+ERROR:cfgrib.dataset:skipping variable: paramId==3017 shortName='dpt'
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 726, in build_dataset_components
+    dict_merge(variables, coord_vars)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 642, in dict_merge
+    raise DatasetBuildError(
+    ...<2 lines>...
+    )
+cfgrib.dataset.DatasetBuildError: key present and new value is different: key='isobaricInhPa' value=Variable(dimensions=('isobaricInhPa',), data=array([1000.,  975.,  950.,  925.,  900.,  875.,  850.,  825.,  800.,
+        775.,  750.,  725.,  700.,  675.,  650.,  625.,  600.,  575.,
+        550.,  525.,  500.,  475.,  450.,  425.,  400.,  375.,  350.,
+        325.,  300.,  275.,  250.,  225.,  200.,  175.,  150.,  125.,
+        100.,   70.,   50.,   30.,   20.,   10.,    7.,    5.,    2.])) new_value=Variable(dimensions=('isobaricInhPa',), data=array([850., 700., 500., 300., 200., 100.]))
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_next_temp.grb2.5b7b6.idx' older than GRIB file
+WARNING:cfgrib.messages:Ignoring index file 'Model_Data/temp_gribs/sfc_temp.grb2.5b7b6.idx' older than GRIB file
+INFO:utils:1005.6900024414062mb is above the pressure threshold of 1005mb

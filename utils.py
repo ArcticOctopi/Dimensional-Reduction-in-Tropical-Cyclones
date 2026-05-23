@@ -177,10 +177,10 @@ def plot_polar(ds):
 
     angle, radius = ds.angle.values, ds.radius.values
 
-    R, Theta = np.meshgrid(radius, angle)
+    Theta, R = np.meshgrid(angle, radius)
 
 
-    ax.pcolormesh(R, Theta, ds)
+    ax.pcolor(Theta, R, ds.values[1:,1:])
     plt.show()
 
 def plot_polar_from_arrays(radius, angle, values):
