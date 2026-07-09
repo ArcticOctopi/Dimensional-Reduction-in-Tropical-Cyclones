@@ -99,7 +99,7 @@ def download_and_open(url, typeOfKey = 'isobaricInhPa', filename="temp.grib2"):
                        engine='cfgrib')
   return ds  
 
-def random_link_selection(num_of_frames, links_path):
+def random_link_selection(num_of_frames, used_links, links_path):
     
     ## num_of_frames: the number of random frames you want to select
     ## links_path: the local path to where the link_list txt file is located
@@ -108,7 +108,8 @@ def random_link_selection(num_of_frames, links_path):
     result = []
     with open(links_path) as f:
         links = pd.read_csv(f)
-    random_frames = links.sample(num_of_frames)
+    available_links = links[~links.isin(used_links)]
+    random_frames = available_links.sample(num_of_frames)
     for link in random_frames.values:
         result.append('https://noaa-nws-hafs-pds.s3.amazonaws.com/' + link)
     
