@@ -14,67 +14,68 @@ logging.basicConfig(filename='utils.log', encoding='utf-8', level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
-def get_future_intensity(links, current_timestep = 'f024', future_timestep = 'f048'):
+def get_future_intensity(link, current_timestep = 'f006', future_timestep = 'f030'):
     
     atm_args = dict(typeOfKey = 'isobaricInhPa',filename="Model_Data/temp_gribs/atm_temp.grb2" )
     sfc_args = dict(typeOfKey = 'meanSea',filename="Model_Data/temp_gribs/sfc_temp.grb2")
-    minimum_central_pressures = []
-    max_winds = []
+    
+    
 
-    for i, link in enumerate(links):
+    
+    
+    print(f'Getting future intensities on link {link}')
 
-        print(f'Work on link {i}')
+    link = re.sub(current_timestep, future_timestep, link)
+    
 
-        link = re.sub(current_timestep, future_timestep, link)
+    sfc_df = download_and_open(link, **sfc_args)
 
-        sfc_df = download_and_open(link, **sfc_args)
+    sfc_center = get_sfc_center(sfc_df, next_step = True)
 
-        sfc_center = get_sfc_center(sfc_df, next_step = True)
-
-        if not sfc_center:
-            minimum_central_pressures.append(None)
-            max_winds.append(None)
-            continue
-        minimum_central_pressures.append(sfc_center['mslp'])
+    if not sfc_center:
+        return {'24hr Minimum Central Pressure': np.nan, '24hr Max Winds': np.nan}
+    
+    
         
-        atm_df = download_and_open(link, **atm_args)
-        sfc_layer = atm_df.sel(isobaricInhPa = sfc_center['mslp'], method = 'nearest')
+    atm_df = download_and_open(link, **atm_args)
+    sfc_layer = atm_df.sel(isobaricInhPa = sfc_center['mslp'], method = 'nearest')
 
-        max_wind = np.nanmax(np.sqrt(sfc_layer['u'].values**2 + sfc_layer['v'].values**2))
-        max_winds.append(max_wind)
+    max_wind = np.nanmax(np.sqrt(sfc_layer['u'].values**2 + sfc_layer['v'].values**2))
+    
 
-    return {'24hr Minimum Central Pressure': minimum_central_pressures, '24hr Max Winds': max_winds}
+    return {'24hr Minimum Central Pressure': sfc_center['mslp'], '24hr Max Winds': max_wind}
 
 def consolidate_data(data_path):
-    
+
+    '''
+        Takes a list of separate Netcdf files generated from the Dataset creator and consolidates them.
+        Assumes the netcdfs have 50 frames per file.
+    '''    
+
     directory_path = Path(data_path)
     files_only = [data_path + '/' + entry.name for entry in directory_path.iterdir() if entry.is_file() and entry.name != '.gitkeep']
-
     ds_started = False
-    for i, file in enumerate(files_only):
+    starting_num = 0
+    for file in files_only:
         print(file)
         
         if not ds_started:
             ds = xr.open_dataset(file)
-            ds = ds.assign_coords(frame_number = ('valid_time',np.arange((i+5)*100, (i+5+1) * 100, 1)))
+            num_frames = len(ds['frame_link'].values)
+            print(f'{num_frames} in {file}.')
+            ds = ds.assign_coords(frame_number = ('valid_time',np.arange(starting_num, starting_num + num_frames, 1)))
             ds = ds.swap_dims({'valid_time':'frame_number'})
-            
-            results = get_future_intensity(ds.isel(levels = 0)['frame_link'].values)
-            ds['24HrMaxWinds'] = (('frame_number'), np.squeeze(results['24hr Max Winds']))
-            ds['24HrMinimumCentralPressure'] = (('frame_number'), np.squeeze(results['24hr Minimum Central Pressure']))
+            starting_num = starting_num + num_frames
             ds_started = True
-            ds.to_netcdf(f'Model_Data/CompleteData/withRI/StormChunk{i}.nc')
         else:
             ds_temp = xr.open_dataset(file)
-            ds_temp = ds_temp.assign_coords(frame_number = ('valid_time',np.arange((i+5)*100, (i+5+1) * 100, 1)))
+            num_frames = len(ds_temp['frame_link'].values)
+            print(f'{num_frames} in {file}.')
+            ds_temp = ds_temp.assign_coords(frame_number = ('valid_time',np.arange(starting_num, starting_num + num_frames, 1)))
+            starting_num = starting_num + num_frames
             ds_temp = ds_temp.swap_dims({'valid_time':'frame_number'})
-            results = get_future_intensity(ds_temp.isel(levels = 0)['frame_link'].values)
-            ds_temp['24HrMaxWinds'] = (('frame_number'), np.squeeze(results['24hr Max Winds']))
-            ds_temp['24HrMinimumCentralPressure'] = (('frame_number'), np.squeeze(results['24hr Minimum Central Pressure']))
-            ds_temp.to_netcdf(f'Model_Data/CompleteData/withRI/StormChunk{(i+5)}.nc')
             ds = xr.concat([ds, ds_temp], dim = 'frame_number')
-            
-            ds_started = True
+
             
     return ds
 
@@ -113,7 +114,7 @@ def random_link_selection(num_of_frames, used_links, links_path):
     for link in random_frames.values:
         result.append('https://noaa-nws-hafs-pds.s3.amazonaws.com/' + link)
     
-    return result
+    return np.squeeze(result)
 
 def get_sfc_center(ds, next_step = False):
 
