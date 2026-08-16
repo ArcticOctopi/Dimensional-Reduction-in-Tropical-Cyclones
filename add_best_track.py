@@ -87,12 +87,13 @@ def parse_ibtracs(path: str) -> pd.DataFrame:
     df = pd.read_csv(
         path,
         skiprows=[1],  # second line is a units row, not data
-        usecols=["ISO_TIME", "LAT", "LON", "USA_ATCF_ID", "USA_WIND", "WMO_WIND"],
+        usecols=["ISO_TIME", "LAT", "LON", "USA_ATCF_ID", "USA_WIND", "WMO_WIND", "USA_PRES", "WMO_PRES"],
         na_values=[" ", ""],
         skipinitialspace=True,
         low_memory=False,
     )
-
+    df["USA_WIND"] = df["USA_WIND"] / 1.94384 # Converting to M/s
+    df["WMO_WIND"] = df["WMO_WIND"] / 1.94384 # Converting to M/s
     df["USA_ATCF_ID"] = df["USA_ATCF_ID"].str.strip()
     df = df[df["USA_ATCF_ID"].notna() & (df["USA_ATCF_ID"] != "")]
 
@@ -105,6 +106,9 @@ def parse_ibtracs(path: str) -> pd.DataFrame:
             "wind": pd.to_numeric(df["USA_WIND"], errors="coerce").fillna(
                 pd.to_numeric(df["WMO_WIND"], errors="coerce")
             ),
+            "pres": pd.to_numeric(df["USA_PRES"], errors="coerce").fillna(
+                            pd.to_numeric(df["WMO_PRES"], errors="coerce")
+                        ),
         }
     )
     return out.sort_values(["storm_id", "datetime"]).reset_index(drop=True)
@@ -158,6 +162,7 @@ def add_best_track(
     best_lat = np.full(n, np.nan)
     best_lon = np.full(n, np.nan)
     best_wind = np.full(n, np.nan)
+    best_pres = np.full(n, np.nan)
     best_lat_RI = np.full(n, np.nan)
     best_lon_RI = np.full(n, np.nan)
     best_wind_RI = np.full(n, np.nan)
@@ -167,7 +172,7 @@ def add_best_track(
         if storm_id is None:
             
             continue
-        track = ibtracs.loc[ibtracs.storm_id == storm_id, ["datetime", "lat", "lon", "wind"]]
+        track = ibtracs.loc[ibtracs.storm_id == storm_id, ["datetime", "lat", "lon", "wind", "pres"]]
         if track.empty:
             print('Storm id not in IBTracs file')
             continue  # storm not present in this IBTrACS file (e.g. no US-agency track)
@@ -195,6 +200,7 @@ def add_best_track(
         best_lat[frame_idx] = aligned["lat"].to_numpy()
         best_lon[frame_idx] = aligned["lon"].to_numpy()
         best_wind[frame_idx] = aligned["wind"].to_numpy()
+        best_pres[frame_idx] = aligned["pres"].to_numpy()
 
         best_lat_RI[frame_idx] = RI_aligned["lat"].to_numpy()
         best_lon_RI[frame_idx] = RI_aligned["lon"].to_numpy()
@@ -222,6 +228,14 @@ def add_best_track(
             "units": "kt",
         },
     )
+    ds["best_track_pres"] = (
+            (frame_dim,),
+            best_pres,
+            {
+                "long_name": "IBTrACS best track minimum central pressure, interpolated to valid_time",
+                "units": "mb",
+            },
+        )
     ds["best_track_RI_location"] = (
         (frame_dim, "latlonRI"),
         location_RI,
