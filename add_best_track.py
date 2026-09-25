@@ -67,7 +67,7 @@ import xarray as xr
 
 # ATCF basin-letter -> ATCF basin-code prefix, matching the prefix used
 # in IBTrACS' USA_ATCF_ID field (e.g. "AL092023").
-BASIN_LETTER_MAP = {"l": "AL", "e": "EP", "c": "CP"}
+BASIN_LETTER_MAP = {"l": "AL", "e": "EP", "c": "CP", "w": "WP"}
 
 FRAME_LINK_RE = re.compile(
     r"/(\d{2})([a-z])\.(\d{10})\.(hfsa|hfsb)\.storm\.atm\.f(\d{3})\.grb2"
@@ -87,13 +87,14 @@ def parse_ibtracs(path: str) -> pd.DataFrame:
     df = pd.read_csv(
         path,
         skiprows=[1],  # second line is a units row, not data
-        usecols=["ISO_TIME", "LAT", "LON", "USA_ATCF_ID", "USA_WIND", "WMO_WIND", "USA_PRES", "WMO_PRES"],
+        usecols=["ISO_TIME", "LAT", "LON", "USA_ATCF_ID", "USA_WIND", "WMO_WIND","TOKYO_WIND", "USA_PRES", "WMO_PRES", "TOKYO_PRES"],
         na_values=[" ", ""],
         skipinitialspace=True,
         low_memory=False,
     )
     df["USA_WIND"] = df["USA_WIND"] / 1.94384 # Converting to M/s
     df["WMO_WIND"] = df["WMO_WIND"] / 1.94384 # Converting to M/s
+    df["TOKYO_WIND"] = df["TOKYO_WIND"] / 1.94384 # Converting to M/s
     df["USA_ATCF_ID"] = df["USA_ATCF_ID"].str.strip()
     df = df[df["USA_ATCF_ID"].notna() & (df["USA_ATCF_ID"] != "")]
 
@@ -104,10 +105,12 @@ def parse_ibtracs(path: str) -> pd.DataFrame:
             "lat": pd.to_numeric(df["LAT"], errors="coerce"),
             "lon": pd.to_numeric(df["LON"], errors="coerce"),
             "wind": pd.to_numeric(df["USA_WIND"], errors="coerce").fillna(
-                pd.to_numeric(df["WMO_WIND"], errors="coerce")
+                pd.to_numeric(df["WMO_WIND"], errors="coerce")).fillna(
+                pd.to_numeric(df["TOKYO_WIND"], errors="coerce")
             ),
             "pres": pd.to_numeric(df["USA_PRES"], errors="coerce").fillna(
-                            pd.to_numeric(df["WMO_PRES"], errors="coerce")
+                            pd.to_numeric(df["WMO_PRES"], errors="coerce")).fillna(
+                            pd.to_numeric(df["TOKYO_PRES"], errors="coerce")
                         ),
         }
     )
