@@ -3,3 +3,4 @@
 *.grb2
 *.grib2
 *.csv
+*.joblib

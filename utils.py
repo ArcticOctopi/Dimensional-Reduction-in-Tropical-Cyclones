@@ -116,7 +116,8 @@ def random_link_selection(num_of_frames, used_links, links_path):
     
     return np.squeeze(result)
 
-def get_sfc_center(ds, next_step = False):
+def get_sfc_center(ds, next_step = False, land_filter = True):
+    
 
     if ds['prmsl'].min().values > 10000:
        ds['prmsl'] = ds['prmsl']/100
@@ -164,7 +165,7 @@ def get_sfc_center(ds, next_step = False):
 
 
 
-    if np.any(on_land) and not next_step:
+    if np.any(on_land) and land_filter and not next_step:
        print('Inner nest contains land.')
        logger.info('Inner nest contains land.')
        return None

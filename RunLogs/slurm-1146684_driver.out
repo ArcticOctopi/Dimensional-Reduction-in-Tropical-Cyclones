@@ -1,0 +1,9 @@
+Start time : 08:54:10
+ERROR: Unable to locate a modulefile for 'python/3.14.3'
+/var/spool/slurm/d/job1146684/slurm_script: line 21: source: /data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/bin/python3.14: cannot execute binary file
+unlimited
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/ATMS-Thesis/Dimensional-Reduction-in-Tropical-Cyclones/IndividualStormScript.py", line 6, in <module>
+    import xesmf as xe
+ModuleNotFoundError: No module named 'xesmf'
+End time : 08:54:11

@@ -1,0 +1,205 @@
+Start time : 09:58:32
+ERROR: Unable to locate a modulefile for 'python/3.14.3'
+unlimited
+Link number 0
+https://noaa-nws-hafs-pds.s3.amazonaws.com/hfsa/20231022/12/18e.2023102212.hfsa.storm.atm.f006.grb2
+Downloading filtered data...
+1003.27001953125mb is below the pressure threshold of 1005mb
+Downloading filtered data...
+Downloading filtered data...
+998.0399780273438mb is below the pressure threshold of 1005mb
+Storm heading is 317.79
+/data/keeling/a/ianpark3/ATMS-Thesis/Dimensional-Reduction-in-Tropical-Cyclones/IndividualStormScript.py:352: FutureWarning: In a future version of xarray the default value for coords will change from coords='different' to coords='minimal'. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set coords explicitly.
+  output = xr.concat([output, polar_out], dim = 'isobaricInhPa')
+Getting future intensities on link https://noaa-nws-hafs-pds.s3.amazonaws.com/hfsa/20231022/12/18e.2023102212.hfsa.storm.atm.f006.grb2
+Downloading filtered data...
+1000.52001953125mb is below the pressure threshold of 1005mb
+Downloading filtered data...
+Adding frame number 1
+1002.5419
+Link number 1
+https://noaa-nws-hafs-pds.s3.amazonaws.com/hfsa/20231022/18/18e.2023102218.hfsa.storm.atm.f006.grb2
+Downloading filtered data...
+1002.8499755859375mb is below the pressure threshold of 1005mb
+Downloading filtered data...
+Downloading filtered data...
+998.0399780273438mb is below the pressure threshold of 1005mb
+Storm heading is 230.74
+/data/keeling/a/ianpark3/ATMS-Thesis/Dimensional-Reduction-in-Tropical-Cyclones/IndividualStormScript.py:352: FutureWarning: In a future version of xarray the default value for coords will change from coords='different' to coords='minimal'. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set coords explicitly.
+  output = xr.concat([output, polar_out], dim = 'isobaricInhPa')
+Getting future intensities on link https://noaa-nws-hafs-pds.s3.amazonaws.com/hfsa/20231022/18/18e.2023102218.hfsa.storm.atm.f006.grb2
+Downloading filtered data...
+999.780029296875mb is below the pressure threshold of 1005mb
+Downloading filtered data...
+Adding frame number 2
+1005.6703
+Link number 2
+https://noaa-nws-hafs-pds.s3.amazonaws.com/hfsa/20231023/00/18e.2023102300.hfsa.storm.atm.f006.grb2
+Downloading filtered data...
+998.25mb is below the pressure threshold of 1005mb
+Downloading filtered data...
+Downloading filtered data...
+995.5900268554688mb is below the pressure threshold of 1005mb
+Storm heading is 60.71
+/data/keeling/a/ianpark3/ATMS-Thesis/Dimensional-Reduction-in-Tropical-Cyclones/IndividualStormScript.py:352: FutureWarning: In a future version of xarray the default value for coords will change from coords='different' to coords='minimal'. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set coords explicitly.
+  output = xr.concat([output, polar_out], dim = 'isobaricInhPa')
+Getting future intensities on link https://noaa-nws-hafs-pds.s3.amazonaws.com/hfsa/20231023/00/18e.2023102300.hfsa.storm.atm.f006.grb2
+Downloading filtered data...
+1002.6199951171875mb is below the pressure threshold of 1005mb
+Downloading filtered data...
+Adding frame number 3
+1007.035
+Link number 3
+https://noaa-nws-hafs-pds.s3.amazonaws.com/hfsa/20231023/06/18e.2023102306.hfsa.storm.atm.f006.grb2
+Downloading filtered data...
+998.989990234375mb is below the pressure threshold of 1005mb
+Downloading filtered data...
+Downloading filtered data...
+998.0599975585938mb is below the pressure threshold of 1005mb
+Storm heading is 270.02
+/data/keeling/a/ianpark3/ATMS-Thesis/Dimensional-Reduction-in-Tropical-Cyclones/IndividualStormScript.py:352: FutureWarning: In a future version of xarray the default value for coords will change from coords='different' to coords='minimal'. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set coords explicitly.
+  output = xr.concat([output, polar_out], dim = 'isobaricInhPa')
+Getting future intensities on link https://noaa-nws-hafs-pds.s3.amazonaws.com/hfsa/20231023/06/18e.2023102306.hfsa.storm.atm.f006.grb2
+Downloading filtered data...
+1003.219970703125mb is below the pressure threshold of 1005mb
+Downloading filtered data...
+Adding frame number 4
+1005.25476
+Link number 4
+https://noaa-nws-hafs-pds.s3.amazonaws.com/hfsa/20231023/12/18e.2023102312.hfsa.storm.atm.f006.grb2
+Downloading filtered data...
+1000.1300048828125mb is below the pressure threshold of 1005mb
+Downloading filtered data...
+Downloading filtered data...
+996.8300170898438mb is below the pressure threshold of 1005mb
+Storm heading is 99.66
+/data/keeling/a/ianpark3/ATMS-Thesis/Dimensional-Reduction-in-Tropical-Cyclones/IndividualStormScript.py:352: FutureWarning: In a future version of xarray the default value for coords will change from coords='different' to coords='minimal'. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set coords explicitly.
+  output = xr.concat([output, polar_out], dim = 'isobaricInhPa')
+Getting future intensities on link https://noaa-nws-hafs-pds.s3.amazonaws.com/hfsa/20231023/12/18e.2023102312.hfsa.storm.atm.f006.grb2
+Downloading filtered data...
+998.3900146484375mb is below the pressure threshold of 1005mb
+Downloading filtered data...
+Adding frame number 5
+998.389
+Link number 5
+https://noaa-nws-hafs-pds.s3.amazonaws.com/hfsa/20231023/18/18e.2023102318.hfsa.storm.atm.f006.grb2
+Downloading filtered data...
+1001.3099975585938mb is below the pressure threshold of 1005mb
+Downloading filtered data...
+Downloading filtered data...
+1002.239990234375mb is below the pressure threshold of 1005mb
+Storm heading is 329.72
+/data/keeling/a/ianpark3/ATMS-Thesis/Dimensional-Reduction-in-Tropical-Cyclones/IndividualStormScript.py:352: FutureWarning: In a future version of xarray the default value for coords will change from coords='different' to coords='minimal'. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set coords explicitly.
+  output = xr.concat([output, polar_out], dim = 'isobaricInhPa')
+Getting future intensities on link https://noaa-nws-hafs-pds.s3.amazonaws.com/hfsa/20231023/18/18e.2023102318.hfsa.storm.atm.f006.grb2
+Downloading filtered data...
+996.989990234375mb is below the pressure threshold of 1005mb
+Downloading filtered data...
+Adding frame number 6
+996.9894
+Link number 6
+https://noaa-nws-hafs-pds.s3.amazonaws.com/hfsa/20231024/00/18e.2023102400.hfsa.storm.atm.f006.grb2
+Downloading filtered data...
+997.5700073242188mb is below the pressure threshold of 1005mb
+Downloading filtered data...
+Downloading filtered data...
+995.239990234375mb is below the pressure threshold of 1005mb
+Storm heading is 342.33
+/data/keeling/a/ianpark3/ATMS-Thesis/Dimensional-Reduction-in-Tropical-Cyclones/IndividualStormScript.py:352: FutureWarning: In a future version of xarray the default value for coords will change from coords='different' to coords='minimal'. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set coords explicitly.
+  output = xr.concat([output, polar_out], dim = 'isobaricInhPa')
+Getting future intensities on link https://noaa-nws-hafs-pds.s3.amazonaws.com/hfsa/20231024/00/18e.2023102400.hfsa.storm.atm.f006.grb2
+Downloading filtered data...
+1001.0700073242188mb is below the pressure threshold of 1005mb
+Downloading filtered data...
+Adding frame number 7
+1001.0717
+Link number 7
+https://noaa-nws-hafs-pds.s3.amazonaws.com/hfsa/20231024/06/18e.2023102406.hfsa.storm.atm.f006.grb2
+Downloading filtered data...
+991.0599975585938mb is below the pressure threshold of 1005mb
+Downloading filtered data...
+Downloading filtered data...
+998.6799926757812mb is below the pressure threshold of 1005mb
+Storm heading is 8.13
+/data/keeling/a/ianpark3/ATMS-Thesis/Dimensional-Reduction-in-Tropical-Cyclones/IndividualStormScript.py:352: FutureWarning: In a future version of xarray the default value for coords will change from coords='different' to coords='minimal'. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set coords explicitly.
+  output = xr.concat([output, polar_out], dim = 'isobaricInhPa')
+Getting future intensities on link https://noaa-nws-hafs-pds.s3.amazonaws.com/hfsa/20231024/06/18e.2023102406.hfsa.storm.atm.f006.grb2
+Downloading filtered data...
+997.469970703125mb is below the pressure threshold of 1005mb
+Downloading filtered data...
+Adding frame number 8
+997.4743
+Link number 8
+https://noaa-nws-hafs-pds.s3.amazonaws.com/hfsa/20231024/12/18e.2023102412.hfsa.storm.atm.f006.grb2
+Downloading filtered data...
+984.0700073242188mb is below the pressure threshold of 1005mb
+Downloading filtered data...
+Downloading filtered data...
+981.5mb is below the pressure threshold of 1005mb
+Storm heading is 335.84
+/data/keeling/a/ianpark3/ATMS-Thesis/Dimensional-Reduction-in-Tropical-Cyclones/IndividualStormScript.py:352: FutureWarning: In a future version of xarray the default value for coords will change from coords='different' to coords='minimal'. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set coords explicitly.
+  output = xr.concat([output, polar_out], dim = 'isobaricInhPa')
+Getting future intensities on link https://noaa-nws-hafs-pds.s3.amazonaws.com/hfsa/20231024/12/18e.2023102412.hfsa.storm.atm.f006.grb2
+Downloading filtered data...
+1002.6799926757812mb is below the pressure threshold of 1005mb
+Downloading filtered data...
+Adding frame number 9
+1002.6817
+Link number 9
+https://noaa-nws-hafs-pds.s3.amazonaws.com/hfsa/20231024/18/18e.2023102418.hfsa.storm.atm.f006.grb2
+Downloading filtered data...
+961.530029296875mb is below the pressure threshold of 1005mb
+Downloading filtered data...
+Downloading filtered data...
+964.27001953125mb is below the pressure threshold of 1005mb
+Storm heading is 341.42
+/data/keeling/a/ianpark3/ATMS-Thesis/Dimensional-Reduction-in-Tropical-Cyclones/IndividualStormScript.py:352: FutureWarning: In a future version of xarray the default value for coords will change from coords='different' to coords='minimal'. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set coords explicitly.
+  output = xr.concat([output, polar_out], dim = 'isobaricInhPa')
+Getting future intensities on link https://noaa-nws-hafs-pds.s3.amazonaws.com/hfsa/20231024/18/18e.2023102418.hfsa.storm.atm.f006.grb2
+Downloading filtered data...
+1004.5900268554688mb is below the pressure threshold of 1005mb
+Downloading filtered data...
+Adding frame number 10
+1007.6954
+Link number 10
+https://noaa-nws-hafs-pds.s3.amazonaws.com/hfsa/20231025/00/18e.2023102500.hfsa.storm.atm.f006.grb2
+Downloading filtered data...
+953.1400146484375mb is below the pressure threshold of 1005mb
+Downloading filtered data...
+Downloading filtered data...
+953.5700073242188mb is below the pressure threshold of 1005mb
+Storm heading is 321.92
+/data/keeling/a/ianpark3/ATMS-Thesis/Dimensional-Reduction-in-Tropical-Cyclones/IndividualStormScript.py:352: FutureWarning: In a future version of xarray the default value for coords will change from coords='different' to coords='minimal'. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set coords explicitly.
+  output = xr.concat([output, polar_out], dim = 'isobaricInhPa')
+Getting future intensities on link https://noaa-nws-hafs-pds.s3.amazonaws.com/hfsa/20231025/00/18e.2023102500.hfsa.storm.atm.f006.grb2
+Downloading filtered data...
+1006.02001953125mb is below the pressure threshold of 1005mb
+NaNs in storm region, skipping frame.
+Adding frame number 11
+nan
+Link number 11
+https://noaa-nws-hafs-pds.s3.amazonaws.com/hfsa/20231025/06/18e.2023102506.hfsa.storm.atm.f006.grb2
+Downloading filtered data...
+979.280029296875mb is below the pressure threshold of 1005mb
+Downloading filtered data...
+Downloading filtered data...
+1003.530029296875mb is below the pressure threshold of 1005mb
+Storm heading is 336.26
+/data/keeling/a/ianpark3/ATMS-Thesis/Dimensional-Reduction-in-Tropical-Cyclones/IndividualStormScript.py:352: FutureWarning: In a future version of xarray the default value for coords will change from coords='different' to coords='minimal'. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set coords explicitly.
+  output = xr.concat([output, polar_out], dim = 'isobaricInhPa')
+Getting future intensities on link https://noaa-nws-hafs-pds.s3.amazonaws.com/hfsa/20231025/06/18e.2023102506.hfsa.storm.atm.f006.grb2
+Downloading filtered data...
+1008.8699951171875mb is below the pressure threshold of 1005mb
+NaNs in storm region, skipping frame.
+Adding frame number 12
+nan
+Link number 12
+https://noaa-nws-hafs-pds.s3.amazonaws.com/hfsa/20231025/12/18e.2023102512.hfsa.storm.atm.f006.grb2
+Downloading filtered data...
+996.2000122070312mb is below the pressure threshold of 1005mb
+Downloading filtered data...
+Downloading filtered data...
+1003.1199951171875mb is below the pressure threshold of 1005mb
+NaNs in storm region, skipping frame.
+Can't determine follow on timestep storm center. Skipping frame
+End time : 10:18:44

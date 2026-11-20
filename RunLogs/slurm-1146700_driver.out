@@ -1,0 +1,101 @@
+Start time : 09:18:43
+ERROR: Unable to locate a modulefile for 'python/3.14.3'
+unlimited
+Link number 0
+https://noaa-nws-hafs-pds.s3.amazonaws.com/hfsa/20231022/12/18e.2023102212.hfsa.storm.atm.f006.grb2
+Downloading filtered data...
+1003.27001953125mb is below the pressure threshold of 1005mb
+Downloading filtered data...
+Downloading filtered data...
+998.0399780273438mb is below the pressure threshold of 1005mb
+Storm heading is 317.79
+Traceback (most recent call last):
+  File "/data/keeling/a/ianpark3/ATMS-Thesis/Dimensional-Reduction-in-Tropical-Cyclones/IndividualStormScript.py", line 508, in <module>
+    sfc_frame, atm_700_frame, atm_200_frame = frame_processing(frame_path,
+                                              ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+                                                               starting_timestep = starting_timestep,
+                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                                               heading_timestep = heading_timestep,
+                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                                               ri_timestep = ri_timestep)
+                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/ATMS-Thesis/Dimensional-Reduction-in-Tropical-Cyclones/IndividualStormScript.py", line 153, in frame_processing
+    frame = to_polar(ds_atm,
+                     center_coords_atm,
+                     storm_heading = storm_heading)
+  File "/data/keeling/a/ianpark3/ATMS-Thesis/Dimensional-Reduction-in-Tropical-Cyclones/IndividualStormScript.py", line 315, in to_polar
+    polar_out = regridder(ds, ds_atm_lvl)
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/xesmf/frontend.py", line 618, in __call__
+    return self.regrid_dataset(
+           ~~~~~~~~~~~~~~~~~~~^
+        indata,
+        ^^^^^^^
+    ...<3 lines>...
+        output_chunks=output_chunks,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/xesmf/frontend.py", line 757, in regrid_dataset
+    ds_out = xr.apply_ufunc(
+        self.regrid_array,
+    ...<6 lines>...
+        keep_attrs=keep_attrs,
+    )
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/xarray/computation/apply_ufunc.py", line 1254, in apply_ufunc
+    return apply_dataset_vfunc(
+        variables_vfunc,
+    ...<7 lines>...
+        on_missing_core_dim=on_missing_core_dim,
+    )
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/xarray/computation/apply_ufunc.py", line 527, in apply_dataset_vfunc
+    result_vars = apply_dict_of_variables_vfunc(
+        func,
+    ...<4 lines>...
+        on_missing_core_dim=on_missing_core_dim,
+    )
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/xarray/computation/apply_ufunc.py", line 452, in apply_dict_of_variables_vfunc
+    result_vars[name] = func(*variable_args)
+                        ~~~~^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/xarray/computation/apply_ufunc.py", line 732, in apply_variable_ufunc
+    broadcast_compat_data(arg, broadcast_dims, core_dims)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/xarray/computation/apply_ufunc.py", line 653, in broadcast_compat_data
+    data = variable.data
+           ^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/xarray/core/variable.py", line 456, in data
+    duck_array = self._data.get_duck_array()
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/xarray/core/indexing.py", line 970, in get_duck_array
+    duck_array = self.array.get_duck_array()
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/xarray/core/indexing.py", line 924, in get_duck_array
+    return self.array.get_duck_array()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/xarray/core/indexing.py", line 764, in get_duck_array
+    array = self.array[self.key]
+            ~~~~~~~~~~^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/xarray_plugin.py", line 164, in __getitem__
+    return xr.core.indexing.explicit_indexing_adapter(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        key, self.shape, xr.core.indexing.IndexingSupport.BASIC, self._getitem
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/xarray/core/indexing.py", line 1156, in explicit_indexing_adapter
+    result = raw_indexing_method(raw_key.tuple)
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/xarray_plugin.py", line 173, in _getitem
+    return self.array[key]
+           ~~~~~~~~~~^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/dataset.py", line 374, in __getitem__
+    message = self.index.get_field(message_ids[0])  # type: ignore
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/messages.py", line 488, in get_field
+    return ComputedKeysAdapter(self.fieldset[message_id], self.computed_keys)
+                               ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/messages.py", line 345, in __getitem__
+    return self.message_from_file(file, offset=item)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/messages.py", line 341, in message_from_file
+    return Message.from_file(file, offset, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/keeling/a/ianpark3/miniconda3/envs/ThesisTest/lib/python3.14/site-packages/cfgrib/messages.py", line 105, in from_file
+    raise EOFError("End of file: %r" % file)
+EOFError: End of file: <_io.BufferedReader name='Model_Data/temp_gribs/atm_temp.grb2'>
+End time : 09:19:27
